@@ -1,6 +1,15 @@
 # Install and use AWS-based Wireguard
 Scripts automate the installation and use of Wireguard on AWS with Ubuntu Server 18.04
 
+## Changelog in this fork
+
+1. Saves private key of the client.
+2. Saves the PNG file of the QR code generated.
+3. Default IP shows the external IP of the server.
+4. Default port is 443.
+5. Automatically takes the default interface of the system.
+6. Option to allow client only from private IPs.
+
 ## How use
 
 ### Installation
