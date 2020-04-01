@@ -3,7 +3,7 @@
 apt install software-properties-common -y
 add-apt-repository ppa:wireguard/wireguard -y
 apt update
-apt install wireguard-dkms wireguard-tools qrencode -y
+apt install wireguard linux-headers-$(uname -r) qrencode -y
 
 
 NET_FORWARD="net.ipv4.ip_forward=1"
